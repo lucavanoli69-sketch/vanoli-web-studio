@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VANOLI Web Studio | Agencia Web Moderna</title>
+  <meta name="description"
+    content="VANOLI Web Studio - Diseño y desarrollo de sitios web modernos, SEO y soluciones digitales para negocios que quieren crecer." />
+
+  <!-- CSS de Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Tipografía: Plus Jakarta Sans (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Iconos (Bootstrap Icons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="#inicio">
+        VANOLI <span class="brand-accent">Web Studio</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-nosotros">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#modelo-de-trabajo">Modelo de Trabajo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-primary rounded-pill px-4" href="#contacto">
+              Pedir presupuesto
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Hero -->
+  <section id="inicio" class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7 text-center text-lg-start">
+          <p class="hero-kicker text-uppercase mb-3 d-none d-lg-block">
+            Agencia de diseño y desarrollo web
+          </p>
+          <h1 class="hero-title mb-3">
+            Sitios web modernos para negocios que quieren crecer
+          </h1>
+          <p class="hero-subtitle mb-4">
+            Diseño web, desarrollo y SEO para impulsar tu presencia online.
+          </p>
+          <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+            <a href="#servicios" class="btn btn-primary btn-lg rounded-pill">
+              Ver servicios
+            </a>
+            <a href="#contacto" class="btn btn-outline-secondary btn-lg rounded-pill">
+              Pedir presupuesto
+            </a>
+          </div>
+          <div class="hero-meta mt-4 d-none d-lg-flex flex-wrap gap-4 justify-content-center justify-content-lg-start text-center text-lg-start">
+            <div>
+              <span class="hero-meta-label">Diseño limpio</span>
+              <p class="hero-meta-text mb-0">
+                Interfaces minimalistas pensadas para convertir.
+              </p>
+            </div>
+            <div>
+              <span class="hero-meta-label">Performance</span>
+              <p class="hero-meta-text mb-0">
+                Sitios rápidos, optimizados para Google.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5 mt-lg-0">
+          <div class="hero-card shadow-sm">
+            <div class="hero-badge mb-3">
+              <i class="bi bi-lightning-charge-fill me-2"></i>
+              Proyectos claros, entregas puntuales
+            </div>
+            <h2 class="hero-card-title mb-3">
+              Una web profesional para tu negocio.
+            </h2>
+            <p class="hero-card-text mb-4">
+              Trabajamos contigo para crear una experiencia digital alineada a
+              tus objetivos: más consultas, más ventas y mejor presencia
+              online.
+            </p>
+            <ul class="list-unstyled hero-list mb-4">
+              <li>
+                <i class="bi bi-check-circle-fill"></i> Diseño responsive
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill"></i> Optimización SEO
+                on-page
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill"></i> Integración con
+                WhatsApp y redes
+              </li>
+            </ul>
+            <a href="#proyectos" class="hero-link">
+              Ver proyectos
+              <i class="bi bi-arrow-right-short"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Marquee -->
+  <section class="section-padding marquee-section">
+    <div class="container-fluid px-0">
+      <div class="marquee-wrapper">
+        <div class="marquee-track">
+          <div class="marquee-group">
+            <span class="marquee-item">
+              DISEÑO WEB • SEO • DESARROLLO WEB • VANOLI WEB STUDIO
+            </span>
+            <span class="marquee-item">
+              DISEÑO WEB • SEO • DESARROLLO WEB • VANOLI WEB STUDIO
+            </span>
+            <span class="marquee-item">
+              DISEÑO WEB • SEO • DESARROLLO WEB • VANOLI WEB STUDIO
+            </span>
+            <span class="marquee-item">
+              DISEÑO WEB • SEO • DESARROLLO WEB • VANOLI WEB STUDIO
+            </span>
+            <span class="marquee-item">
+              DISEÑO WEB • SEO • DESARROLLO WEB • VANOLI WEB STUDIO
+            </span>
+          </div>
+          <div class="marquee-group" aria-hidden="true">
+            <span class="marquee-item">
+              DISEÑO WEB • SEO • DESARROLLO WEB • VANOLI WEB STUDIO
+            </span>
+            <span class="marquee-item">
+              DISEÑO WEB • SEO • DESARROLLO WEB • VANOLI WEB STUDIO
+            </span>
+            <span class="marquee-item">
+              DISEÑO WEB • SEO • DESARROLLO WEB • VANOLI WEB STUDIO
+            </span>
+            <span class="marquee-item">
+              DISEÑO WEB • SEO • DESARROLLO WEB • VANOLI WEB STUDIO
+            </span>
+            <span class="marquee-item">
+              DISEÑO WEB • SEO • DESARROLLO WEB • VANOLI WEB STUDIO
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Servicios -->
+  <section id="servicios" class="section-padding bg-light-subtle">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Servicios</h2>
+        <p class="section-subtitle">
+          Soluciones digitales completas para que tu marca destaque online.
+        </p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="service-card h-100">
+            <div class="service-icon mb-3">
+              <i class="bi bi-window-sidebar"></i>
+            </div>
+            <h3 class="service-title">Diseño Web</h3>
+            <p class="service-text">
+              Sitios web modernos y responsivos enfocados en la experiencia de usuario.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card h-100">
+            <div class="service-icon mb-3">
+              <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <h3 class="service-title">SEO</h3>
+            <p class="service-text">
+              Optimización para buscadores para mejorar la visibilidad en Google.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card h-100">
+            <div class="service-icon mb-3">
+              <i class="bi bi-code-slash"></i>
+            </div>
+            <h3 class="service-title">Desarrollo Web</h3>
+            <p class="service-text">
+              Desarrollo web rápido, seguro y escalable.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card h-100">
+            <div class="service-icon mb-3">
+              <i class="bi bi-gear-wide-connected"></i>
+            </div>
+            <h3 class="service-title">Mantenimiento</h3>
+            <p class="service-text">
+              Soporte continuo, actualizaciones y mejoras para que tu sitio siempre funcione al día.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-card h-100">
+            <div class="service-icon mb-3">
+              <i class="bi bi-palette2"></i>
+            </div>
+            <h3 class="service-title">Rediseño Web</h3>
+            <p class="service-text">
+              Modernizamos tu web existente: diseño actualizado, mejor UX y rendimiento optimizado.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Proyectos -->
+  <section id="proyectos" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Proyectos</h2>
+        <p class="section-subtitle">
+          Algunos de los tipos de sitios que podemos crear para tu negocio.
+        </p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="project-card h-100">
+            <div class="project-image-wrapper">
+              <img src="img/landing.webp" alt="BlueHome — Landing Page Inmobiliaria" class="img-fluid project-image" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">BlueHome — Landing Page Inmobiliaria</h3>
+              <p class="project-text">
+                Landing page moderna para una inmobiliaria, diseñada para destacar propiedades, generar confianza y facilitar el contacto con posibles compradores.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card h-100">
+            <div class="project-image-wrapper">
+              <img src="img/studio.webp" alt="Studio Legal — Web Profesional" class="img-fluid project-image" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Studio Legal — Web Profesional</h3>
+              <p class="project-text">
+                Sitio web profesional para un estudio jurídico, pensado para presentar servicios legales, transmitir confianza y permitir que los clientes contacten fácilmente.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card h-100">
+            <div class="project-image-wrapper">
+              <img src="img/agenda.webp" alt="AgendaWeb — Sistema de Reservas Online" class="img-fluid project-image" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title"> AgendaWeb — Sistema de Reservas Online</h3>
+              <p class="project-text">
+                Plataforma web de reservas online que permite a los clientes agendar turnos o servicios de forma rápida y sencilla desde cualquier dispositivo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Sobre Nosotros -->
+  <section id="sobre-nosotros" class="section-padding bg-light-subtle">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <div class="section-header mb-4">
+            <h2 class="section-title text-start">Sobre Nosotros</h2>
+          </div>
+          <p class="about-text mb-3">
+            Somos un estudio de diseño y desarrollo web enfocado en crear
+            experiencias digitales modernas para negocios que quieren crecer
+            online. Nuestro objetivo es construir sitios rápidos, limpios y
+            optimizados que ayuden a las marcas a destacar.
+          </p>
+          <p class="about-text mb-4">
+            Combinamos diseño, tecnología y estrategia para que tu sitio web
+            sea una herramienta real de negocio, no solo una tarjeta de
+            presentación.
+          </p>
+          <div class="d-flex flex-wrap gap-4 about-meta">
+            <div>
+              <span class="hero-meta-label">Enfoque</span>
+              <p class="hero-meta-text mb-0">
+                Proyectos claros, procesos simples y comunicación directa.
+              </p>
+            </div>
+            <div>
+              <span class="hero-meta-label">Stack moderno</span>
+              <p class="hero-meta-text mb-0">
+                Tecnologías actuales, buenas prácticas y sitios fáciles de
+                mantener.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 ms-lg-auto">
+          <div class="about-card shadow-sm">
+            <h3 class="about-card-title mb-3">Por qué trabajar con nosotros</h3>
+            <ul class="list-unstyled about-list mb-0">
+              <li>
+                <i class="bi bi-check2"></i> Acompañamiento desde la idea
+                hasta la publicación.
+              </li>
+              <li>
+                <i class="bi bi-check2"></i> Diseño centrado en objetivos de
+                negocio.
+              </li>
+              <li>
+                <i class="bi bi-check2"></i> Implementación ágil y clara,
+                sin tecnicismos innecesarios.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Modelo de Trabajo -->
+  <section id="modelo-de-trabajo" class="section-padding bg-light-subtle work-model-section">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Modelo de Trabajo</h2>
+        <p class="section-subtitle">
+          Así trabajamos: un proceso claro y transparente de principio a fin.
+        </p>
+      </div>
+      <div class="work-model-timeline">
+        <div class="timeline-line" aria-hidden="true"></div>
+        <div class="row g-4 justify-content-center timeline-steps">
+          <div class="col-12 col-lg work-step" data-step="1">
+            <div class="work-step-card h-100">
+              <div class="work-step-icon">
+                <i class="bi bi-chat-dots-fill"></i>
+              </div>
+              <h3 class="work-step-title">Contacto</h3>
+              <p class="work-step-text">
+                El cliente se comunica con nosotros para contar su idea o necesidad.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg work-step" data-step="2">
+            <div class="work-step-card h-100">
+              <div class="work-step-icon">
+                <i class="bi bi-person-lines-fill"></i>
+              </div>
+              <h3 class="work-step-title">Entrevista</h3>
+              <p class="work-step-text">
+                Entendemos las necesidades, objetivos y alcance del proyecto.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg work-step" data-step="3">
+            <div class="work-step-card h-100">
+              <div class="work-step-icon">
+                <i class="bi bi-palette-fill"></i>
+              </div>
+              <h3 class="work-step-title">Mockup / Diseño</h3>
+              <p class="work-step-text">
+                Creamos el diseño visual del sitio para que lo apruebes antes de programar.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg work-step" data-step="4">
+            <div class="work-step-card h-100">
+              <div class="work-step-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <h3 class="work-step-title">Desarrollo</h3>
+              <p class="work-step-text">
+                Programamos el sitio web con las tecnologías adecuadas para tu proyecto.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg work-step" data-step="5">
+            <div class="work-step-card h-100">
+              <div class="work-step-icon">
+                <i class="bi bi-rocket-takeoff-fill"></i>
+              </div>
+              <h3 class="work-step-title">Publicación</h3>
+              <p class="work-step-text">
+                Lanzamos la web online y te acompañamos en los primeros pasos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Llamado a la acción -->
+  <section class="section-padding cta-section">
+    <div class="container">
+      <div class="cta-card text-center">
+        <h2 class="cta-title mb-3">
+          ¿Listo para llevar tu negocio al siguiente nivel?
+        </h2>
+        <p class="cta-text mb-4">
+          Contanos sobre tu proyecto y diseñemos juntos una web alineada a tus
+          objetivos.
+        </p>
+        <a href="#contacto" class="btn btn-primary btn-lg rounded-pill">
+          Pedir presupuesto
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="section-padding bg-light-subtle">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-subtitle">
+          Completá el formulario y te responderemos a la brevedad.
+        </p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="contact-card shadow-sm">
+            <form action="https://formsubmit.co/lucavanoli69@gmail.com" method="POST">
+              <!-- Opciones de FormSubmit -->
+              <input type="hidden" name="_next" value="https://example.com/gracias" />
+              <input type="hidden" name="_captcha" value="false" />
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" name="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required />
+              </div>
+              <div class="mb-4">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+              </div>
+              <div class="d-flex flex-wrap gap-3 align-items-center">
+                <button type="submit" class="btn btn-primary rounded-pill px-4">
+                  Enviar mensaje
+                </button>
+                <a href="https://wa.me/59898052646" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-outline-secondary rounded-pill d-inline-flex align-items-center gap-2">
+                  <i class="bi bi-whatsapp"></i>
+                  Contactame por WhatsApp
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/59898052646" target="_blank" rel="noopener noreferrer" class="whatsapp-float"
+    aria-label="Contactar por WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-md-4">
+          <h5 class="mb-2">VANOLI Web Studio</h5>
+          <p class="mb-0 footer-text">
+            Estudio de diseño y desarrollo web especializado en sitios
+            modernos, limpios y optimizados.
+          </p>
+        </div>
+        <div class="col-md-4 text-md-center">
+          <ul class="list-inline footer-nav mb-0">
+            <li class="list-inline-item">
+              <a href="#inicio">Inicio</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#servicios">Servicios</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#proyectos">Proyectos</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#modelo-de-trabajo">Modelo de Trabajo</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <p class="mb-0 footer-text">
+            © <span id="year"></span> VANOLI Web Studio. Todos los derechos
+            reservados.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- JS personalizado -->
+  <script src="js/style.js"></script>
+</body>
+
+</html>
