@@ -471,10 +471,11 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <div class="contact-card shadow-sm">
-            <form name="contacto2" method="POST" data-netlify="true" netlify netlify-honeypot="bot-field">
-              <!-- Campo oculto para Netlify Forms -->
-              <input type="hidden" name="form-name" value="contacto2">
-              <input type="hidden" name="redirect" value="/gracias.html">
+            <form action="https://formsubmit.co/vanoliwebstudio@gmail.com" method="POST" name="contacto2">
+              <input type="hidden" name="_next" id="_formNext" value="">
+              <script>document.getElementById('_formNext').value = window.location.origin + '/gracias.html';</script>
+              <input type="hidden" name="_subject" value="Nuevo mensaje desde el formulario de contacto">
+              <input type="hidden" name="_captcha" value="false">
 
               <!-- Campo honeypot anti-spam (oculto) -->
               <div style="display:none;">

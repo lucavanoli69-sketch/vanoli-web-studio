@@ -263,6 +263,25 @@ a:hover {
   filter: invert(0.9);
 }
 
+/* Menú móvil: fondo blanco y links visibles */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 0.5rem -1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+  }
+
+  .navbar-collapse .nav-link {
+    color: var(--color-text) !important;
+  }
+
+  .navbar-collapse .nav-link:hover {
+    color: var(--color-accent) !important;
+  }
+}
+
 /* Colores del navbar al hacer scroll */
 .custom-navbar.navbar-scrolled .navbar-brand {
   color: var(--color-text);
@@ -533,10 +552,12 @@ a:hover {
 .project-image-wrapper {
   position: relative;
   overflow: hidden;
+  aspect-ratio: 16 / 10;
 }
 
 .project-image {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   transform: scale(1.02);
   transition: transform 0.5s ease;
