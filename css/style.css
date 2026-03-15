@@ -341,8 +341,7 @@ a:hover {
       rgba(5, 20, 56, 0.88),
       rgba(13, 110, 253, 0.55),
       rgba(56, 189, 248, 0.25)
-    ),
-    url("../assets/images/hero-background.png");
+    );
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
