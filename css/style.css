@@ -911,3 +911,29 @@ textarea.form-control {
   }
 
 }
+
+@media (max-width: 768px) {
+
+  /* Carrusel en proyectos */
+  #proyectos .row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 16px;
+    padding: 10px 16px;
+    scroll-snap-type: x mandatory;
+  }
+
+  /* Ocultar scrollbar */
+  #proyectos .row::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Cada proyecto ocupa casi toda la pantalla */
+  #proyectos .col-md-4 {
+    flex: 0 0 85%;
+    max-width: 85%;
+    scroll-snap-align: center;
+  }
+
+}
